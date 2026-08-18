@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 180px;
+      padding: 14px 16px;
+      margin: 0;
+      background: #111;
+      color: #eee;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      color: #00ff88;
+      letter-spacing: 1px;
+    }
+    p {
+      margin: 0;
+      color: #888;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+    .dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #00ff88;
+      margin-right: 6px;
+      animation: pulse 1.2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+  </style>
+</head>
+<body>
+  <h2><span class="dot"></span>FPS Overlay</h2>
+  <p>Live FPS counter is active on all tabs. Check the top-right corner of any page.</p>
+</body>
+</html>
